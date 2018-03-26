@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="=width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		
+		<title>My portfolio</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<!-- <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css"> -->
+		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+		</script>
+		<script src="js/bootstrap.js"></script>	
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 col-md-3">
+					<svg id="logo" width="155px" height="130px" viewBox="0 0 300 275"
+     					xmlns="http://www.w3.org/2000/svg" version="1.1">
+  						<polygon fill="#fdff00" stroke="#605a00" stroke-width="15" 
+            						points="150,25  179,111 269,111 197,165
+                    				223,251  150,200 77,251  103,165
+                    				31,111 121,111" />
+                    </svg>
+				</div>
+				<div class="col-sm-9 col-md-9 text-right text-uppercase">
+					<h1 class= "title-super text-thin">Tarja Mård</h1>
+					<h4>Statistician, mother, life-long learner</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<img class="img-responsive" src="images/forest-1600_extralarge.jpg" srcset="images/forest-1200_large.jpg 1200w, images/forest-1600_extralarge.jpg 1600w" sizes="100vw" alt="Main image Finnish forest">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<h2 class="text-muted">My life in modals</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-sm-4 col-md-4">
+					<img class="img-responsive" src="images/myapp-1200_large.jpg" srcset="images/myapp-320_small.jpg 320w, images/myapp-640_medium.jpg 640w, images/myapp-1200_large.jpg 1200w" sizes="(max-width: 1200px) 100vw, 320px" alt="screenshot of my first app" data-toggle="modal" data-target="#project1">
+					<h3 class="text-uppercase">My First App</h3>
+					<p><a href="http://neon-flare-102923.appspot.com">http://neon-flare-102923.appspot.com</a></p>
+				</div>
+				<div class="col-sm-4 col-md-4">
+					<img class="img-responsive" src="images/art-1200_large.jpg" srcset="images/art-320_small.jpg 320w, images/art-640_medium.jpg 640w, images/art-1200_large.jpg 1200w" sizes="(max-width: 1200px) 100vw, 320px" alt="nature morte" data-toggle="modal" data-target="#project2">
+					<h3 class="text-uppercase">Art</h3>
+					<p><a href="http://www.palaisdetokyo.com">http://www.palaisdetokyo.com</a></p>
+				</div>
+				<div class="col-sm-4 col-md-4">
+					<img class="img-responsive" src="images/redhut-1200_large.jpg" srcset="images/redhut-320_small.jpg 320w, images/redhut-640_medium.jpg 640w, images/redhut-1200_large.jpg 1200w" sizes="(max-width: 1200px) 100vw, 320px" data-toggle="modal" data-target="#project3" alt="red hut in Finland">
+					<h3 class="text-uppercase">Finland</h3>
+					<p><a href="https://en.wikipedia.org/wiki/Kuhmo">https://en.wikipedia.org/wiki/Kuhmo</a></p>
+				</div>
+			</div>
+			<!-- Modal starts here-->
+				<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h4 class="modal-title" id="myModalLabel1">My First App</h4>
+				      </div>
+				      <div class="modal-body">
+				        <img class="img-responsive" src="images/myapp-640_medium.jpg" alt="screenshot of my first app">
+				        <div class="project-description">
+				        This was my final project for Udacity's Intro to programming Nano degree.
+				        </div>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h4 class="modal-title" id="myModalLabel2">Self-development</h4>
+				      </div>
+				      <div class="modal-body">
+				        <img class="img-responsive" src="images/art-640_medium.jpg" srcset="images/art-320_small.jpg 320w" sizes="100vw" alt="nature morte">
+				        <div class="project-description">
+				         I love modern art and try to make some myself.    
+				        </div>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h4 class="modal-title" id="myModalLabel3">Family and Finland</h4>
+				      </div>
+				      <div class="modal-body">
+				        <img class="img-responsive" src="images/redhut-640_medium.jpg" srcset="images/redhut-320_small.jpg 320w" sizes="100vw" alt="red hut in Finland">
+				        <div class="project-description">
+				        This is the project for life. I love my hubby and kids and our holidays in the countryside!
+				        </div>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			<div class="row">
+				<div class="col-sm-12 col-md12">
+					<hr>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+				</div>
+			</div>
+			<div class="row text-center">	
+				<div class="col-sm-12 col-md-12" id="social">
+				    <a href="https://twitter.com/tarjamard" class="zocial-twitter">Twitter</a>
+				    <a href="https://www.facebook.com/" class="zocial-facebook">Facebook</a>
+				    <a href="https://www.youtube.com/channel/UCybeRh3x7JvLpzUJdxprmTA" class="zocial-youtube">YouTube</a>
+				    <a href="http://linkedin.com/" class="zocial-linkedin">Linkedin</a>
+    			</div>
+    		</div>	
+		</div>
+	</body>
+</html>
