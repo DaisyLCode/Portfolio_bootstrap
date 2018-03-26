@@ -14,7 +14,7 @@ Used a JavaScript task runner `Grunt` to minimize files and produce the responsi
 
 Download the repository to your computer and open the index.html file with your browser.
 
-### Resources
+## Resources
 [Udacity's Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001?v=fe1)
 
 [Udacity's instructions for this project](https://github.com/udacity/frontend-nanodegree-portfolio)
