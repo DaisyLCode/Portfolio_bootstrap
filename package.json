@@ -1,0 +1,15 @@
+{
+  "name": "test_img_size",
+  "version": "1.0.0",
+  "description": "test of image resizing",
+  "main": "test.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tmard",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-responsive-images": "^0.1.6"
+  }
+}
