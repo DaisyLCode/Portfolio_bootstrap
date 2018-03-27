@@ -21,7 +21,7 @@ Download the repository to your computer and open the index.html file with your 
 
 [Udacity - Responsive Images](https://eu.udacity.com/course/responsive-images--ud882)
 
-[MDN web docs - Responsive images] (https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+[MDN web docs - Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 [Udacity's instructions for this project](https://github.com/udacity/frontend-nanodegree-portfolio)
 
